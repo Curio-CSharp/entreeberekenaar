@@ -10,14 +10,37 @@
 
     <Grid>
         <StackPanel Margin="50">
-            <TextBlock FontSize="36px">
+            <TextBlock FontSize="36px" >
                 <Run Text="Entree" />
-                <Run Text="Berekenaar" />
+                <Run FontWeight="ExtraBold" Text="Berekenaar" />
             </TextBlock>
-            <TextBlock Text="Kassateam DeveloperLand" />
-            <StackPanel Margin="0,0,0,0">
+            <TextBlock FontStyle="Italic"  Text="Kassateam DeveloperLand" />
+            <StackPanel Margin="0,24,0,0">
                 <TextBlock Text="Aantal kinderen:" />
-                <TextBox x:Name="tbAantalKinderen" />
+                <TextBox x:Name="tbAantalKinderen" TextChanged="tbAantalKinderen_TextChanged" Text="" />
+            </StackPanel>
+            <StackPanel Margin="0,24,0,0">
+                <TextBlock Text="Aantal volwassenen:" />
+                <TextBox x:Name="tbAantalVolwassenen" TextChanged="tbAantalVolwassenen_TextChanged" />
+            </StackPanel>
+            <StackPanel Margin="0,24,0,0">
+                <TextBlock Text="Arrangement:" />
+                <ComboBox Text="Arrangement" SelectionChanged="ComboBox_SelectionChanged" Width="130" x:Name="tbArrangement"/>
+            </StackPanel>
+            <StackPanel Margin="0,24,0,0">
+                <TextBlock Text="Parkeerkaart aanschaffen:" />
+                <CheckBox Click="CheckBox_Click" x:Name="tbParkeerBedrag"/>
+            </StackPanel>
+            <StackPanel Margin="0,24,0,0">
+                <TextBlock Text="Kortingspercentage:" />
+                <TextBox Text="0"   />
+            </StackPanel>
+            <StackPanel Margin="0,24,0,0">
+                <Button Width="100" Height="30" Margin="0,0,0,0" Click="Button_Click_1">Uitrekenen</Button>
+            </StackPanel>
+            <StackPanel Margin="0,48,0,0" Padding="24" BorderBrush="Red" BorderThickness="2" Width="500" Height="100" HorizontalAlignment="Left">
+                <TextBlock FontWeight="ExtraBold" FontStyle="Italic" Text="Te betalen" />
+                <TextBlock x:Name="tbBedrag" Text="€" />
             </StackPanel>
         </StackPanel>
     </Grid>

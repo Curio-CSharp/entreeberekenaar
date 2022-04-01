@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Bart Roos\\Desktop\\H4_Weekcheck_EntreeBerekenaar\\EntreeBerekenaar\\EntreeBerekenaar.csproj": {}
+    "C:\\xampp\\htdocs\\entreeberekenaar\\EntreeBerekenaar\\EntreeBerekenaar.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Bart Roos\\Desktop\\H4_Weekcheck_EntreeBerekenaar\\EntreeBerekenaar\\EntreeBerekenaar.csproj": {
+    "C:\\xampp\\htdocs\\entreeberekenaar\\EntreeBerekenaar\\EntreeBerekenaar.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Bart Roos\\Desktop\\H4_Weekcheck_EntreeBerekenaar\\EntreeBerekenaar\\EntreeBerekenaar.csproj",
+        "projectUniqueName": "C:\\xampp\\htdocs\\entreeberekenaar\\EntreeBerekenaar\\EntreeBerekenaar.csproj",
         "projectName": "EntreeBerekenaar",
-        "projectPath": "C:\\Users\\Bart Roos\\Desktop\\H4_Weekcheck_EntreeBerekenaar\\EntreeBerekenaar\\EntreeBerekenaar.csproj",
-        "packagesPath": "C:\\Users\\Bart Roos\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Bart Roos\\Desktop\\H4_Weekcheck_EntreeBerekenaar\\EntreeBerekenaar\\obj\\",
+        "projectPath": "C:\\xampp\\htdocs\\entreeberekenaar\\EntreeBerekenaar\\EntreeBerekenaar.csproj",
+        "packagesPath": "C:\\Users\\Robin\\.nuget\\packages\\",
+        "outputPath": "C:\\xampp\\htdocs\\entreeberekenaar\\EntreeBerekenaar\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
@@ -19,7 +19,7 @@
           "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\Bart Roos\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Robin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

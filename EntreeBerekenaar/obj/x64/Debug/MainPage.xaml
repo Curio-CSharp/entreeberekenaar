@@ -1,0 +1,48 @@
+﻿<Page
+    x:Class="EntreeBerekenaar.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:EntreeBerekenaar"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <StackPanel Margin="50">
+            <TextBlock FontSize="36px" >
+                <Run Text="Entree" />
+                <Run FontWeight="ExtraBold" Text="Berekenaar" />
+            </TextBlock>
+            <TextBlock FontStyle="Italic"  Text="Kassateam DeveloperLand" />
+            <StackPanel Margin="0,24,0,0">
+                <TextBlock Text="Aantal kinderen:" />
+                <TextBox x:ConnectionId='7' x:Name="tbAantalKinderen"                                            Text="" />
+            </StackPanel>
+            <StackPanel Margin="0,24,0,0">
+                <TextBlock Text="Aantal volwassenen:" />
+                <TextBox x:ConnectionId='6' x:Name="tbAantalVolwassenen"                                               />
+            </StackPanel>
+            <StackPanel Margin="0,24,0,0">
+                <TextBlock Text="Arrangement:" />
+                <ComboBox x:ConnectionId='5' Text="Arrangement"                                              Width="130" />
+            </StackPanel>
+            <StackPanel Margin="0,24,0,0">
+                <TextBlock Text="Parkeerkaart aanschaffen:" />
+                <CheckBox x:ConnectionId='4'                        x:Name="tbParkeerBedrag"/>
+            </StackPanel>
+            <StackPanel Margin="0,24,0,0">
+                <TextBlock Text="Kortingspercentage:" />
+                <TextBox Text="0"   />
+            </StackPanel>
+            <StackPanel Margin="0,24,0,0">
+                <Button x:ConnectionId='3' Width="100" Height="30" Margin="0,0,0,0"                       >Uitrekenen</Button>
+            </StackPanel>
+            <StackPanel Margin="0,48,0,0" Padding="24" BorderBrush="Red" BorderThickness="2" Width="500" Height="100" HorizontalAlignment="Left">
+                <TextBlock FontWeight="ExtraBold" FontStyle="Italic" Text="Te betalen" />
+                <TextBlock x:ConnectionId='2' x:Name="tbBedrag" Text="�" />
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Page>
+
