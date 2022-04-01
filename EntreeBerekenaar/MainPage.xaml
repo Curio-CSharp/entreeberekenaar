@@ -1,0 +1,24 @@
+<Page
+    x:Class="EntreeBerekenaar.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:EntreeBerekenaar"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <StackPanel Margin="50">
+            <TextBlock FontSize="36px">
+                <Run Text="Entree" />
+                <Run Text="Berekenaar" />
+            </TextBlock>
+            <TextBlock Text="Kassateam DeveloperLand" />
+            <StackPanel Margin="0,0,0,0">
+                <TextBlock Text="Aantal kinderen:" />
+                <TextBox x:Name="tbAantalKinderen" />
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Page>
